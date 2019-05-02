@@ -101,6 +101,10 @@ vagrant halt
 
 ## Destroy Vagrant Box
 
+**WARNING:** This will destroy the conda environment,
+which takes a while to rebuild. Make sure you really
+want to do this!
+
 Destroy the vagrant machine. Start by checking its name:
 
 ```
