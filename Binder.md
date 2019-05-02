@@ -11,9 +11,6 @@ to create the binder image.
 * [Start a DeepChem Binder](#start-a-deepchem-binder)
 * [Install DeepChem into Binder](#install-deepchem-into-binder)
 
-<br />
-<br />
-
 ## Start a DeepChem Binder
 
 Start a binder by visiting the URL: 

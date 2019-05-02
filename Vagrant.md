@@ -14,9 +14,6 @@ Ubuntu Xenial (16.04).
 * [Stop Vagrant Box](#stop-vagrant-box)
 * [Destroy Vagrant Box](#destroy-vagrant-box)
 
-<br />
-<br />
-
 ## Vagrant Box Setup
 
 On host machine, create a new vagrant box:

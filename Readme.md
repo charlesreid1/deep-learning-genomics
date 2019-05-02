@@ -5,9 +5,6 @@
 * [About This Repo](#about-this-repo)
 * [Installing](#installing)
 
-<br />
-<br />
-
 ## About This Repo
 
 This repository is a follow-along companion to
