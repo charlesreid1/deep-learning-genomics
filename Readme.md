@@ -4,7 +4,8 @@
 
 * [About This Repo](#about-this-repo)
 * [Installing](#installing)
-* [Chapter 3](#chapter-3-machine-learning-with-deepchem)
+* [Chapter 3: Machine Learning with DeepChem](#chapter-3-machine-learning-with-deepchem)
+* [Chapter 6: Deep Learning for Genomics](#chapter-6-deep-learning-for-genomics)
 
 ## About This Repo
 
