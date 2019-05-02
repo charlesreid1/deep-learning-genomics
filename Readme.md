@@ -4,6 +4,7 @@
 
 * [About This Repo](#about-this-repo)
 * [Installing](#installing)
+* [Chapter 3](#chapter-3-machine-learning-with-deepchem)
 
 ## About This Repo
 
@@ -30,4 +31,60 @@ Your options are:
 which you'll end up doing anyway, 
 since a virtual machine will be pathetically 
 underpowered for machine learning tasks.
+
+## Chapter 3: Machine Learning with DeepChem
+
+Chapter 3 Notes: [Chapter3.md](Chapter3.md)
+
+Outline of Chapter 3:
+
+* DeepChem Datasets (class representing X and y)
+
+* Toxicity dataset
+    * tasks (feature labels)
+    * datasets (shapes)
+    * transformer (balancing transformer for unbalanced data)
+    * multitask classifier (models submodule; creating a model, setting parameters, fitting to data)
+    * metrics to assess model (metrics submodule)
+
+* MNIST dataset
+    * convolutional neural net architecture
+
+## Chapter 6: Deep Learning for Genomics
+
+Chapter 6 Notes: [Chapter6.md](Chapter6.md)
+
+Chapter 6 outline:
+
+* Primer (ha ha) on DNA and RNA
+
+* Transcription factor binding problem
+    * Background on what we want to find, challenges, data
+    * Use convolutional model to predict binding sites
+
+* Model Number One (convolutional network)
+    * Features, labels, weights
+    * Network architecture (1D convolution layer, dropout, dense, sigmoid)
+    * Dataset loading
+    * Metrics (ROC vs epochs)
+    * Improvement process - don't change architecture, add more data
+
+* Model Number Two (One Plus Plus)
+    * Chromatin accessibility data
+    * Difficulty of having multiple features (and weights, and labels, etc.)
+    * Resolved by using a generator that returns batches
+    * Call `model.fit_generator()` instead of `model.fit()`
+
+* RNA interference problem
+    * Background on the problem, how it works
+    * siRNA - pieces of RNA that bind to mRNA to turn off expression of a gene
+    * Challenge: prediction of siRNA sequences
+
+* Model Number Three (two-layer convolutional network)
+    * Data set - 2431 siRNA molecules, 21 bases each, labeled with 0 or 1
+    * Network architecture (2x(convolution, dropout), dense)
+    * No weights (each sample should contribute equally)
+    * Loss function - L2 distance (minimize mean square difference)
+    * Metrics - Pearson R coeff, regression
+    * Fit model on training data, then evaluate on training and validation data
 
