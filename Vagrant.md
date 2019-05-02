@@ -4,6 +4,19 @@ Instructions for installing deepchem into a
 vagrant box (VirtualBox image) running
 Ubuntu Xenial (16.04).
 
+## Table of Contents
+
+* [Vagrant Box Setup](#vagrant-box-setup)
+* [Install Miniconda on Vagrant Box](#install-miniconda-on-vagrant-box)
+* [Install DepeChem on Vagrant Box](#install-depechem-on-vagrant-box)
+* [Start Jupyter Notebook](#start-jupyter-notebook)
+* [Learn You Some Of That Deep Learnin](#learn-you-some-of-that-deep-learnin)
+* [Stop Vagrant Box](#stop-vagrant-box)
+* [Destroy Vagrant Box](#destroy-vagrant-box)
+
+<br />
+<br />
+
 ## Vagrant Box Setup
 
 On host machine, create a new vagrant box:

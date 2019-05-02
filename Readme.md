@@ -1,4 +1,24 @@
-# Installing
+# Deep Learning for the Life Sciences (featuring DeepChem)
+
+## Table of Contents
+
+* [About This Repo](#about-this-repo)
+* [Installing](#installing)
+
+<br />
+<br />
+
+## About This Repo
+
+This repository is a follow-along companion to
+the book <u>Deep Learning for the Life Sciences</u>,
+by Bharath Ramsundar et al (published by O'Reilly).
+
+This repository will not refrain from, ahem,
+polite commentary on the book's instructions 
+and coverage of relevant material.
+
+## Installing
 
 Your options are:
 
