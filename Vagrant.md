@@ -14,7 +14,8 @@ vagrant init ubuntu/xenial64
 
 Edit the Vagrantfile to pass port 8888 on the 
 vagrant (guest) machine (which is the Jupyter 
-notebook port) on to port 8889 on the host machine:
+notebook port) on to port 8889 on the host machine,
+and to create a shared folder:
 
 ```
 Vagrant.configure("2") do |config|
@@ -22,8 +23,8 @@ Vagrant.configure("2") do |config|
   # Map port 8888 (vagrant) to port 8889 (host)
   config.vm.network "forwarded_port", guest: 8888, host: 8889
 
-  # Create shared folder (host deepchem/ --> guest /tmp/deepchem)
-  config.vm.synced_folder "deepchem/", "/tmp/deepchem"
+  # Create shared folder (host deepchem/ --> guest /deepchem)
+  config.vm.synced_folder "deepchem/", "/deepchem"
 
 end
 ```
@@ -77,8 +78,17 @@ which jupyter
 Start up the jupyter notebook:
 
 ```
+cd /deepchem
 jupyter notebook
 ```
+
+## Learn You Some Of That Deep Learnin
+
+Now you can use DeepChem to learn you real good.
+
+Any notebooks you create in the Vagrant box
+will survive the Vagrant machine being destroyed
+as long as they are in the `/deepchem` directory.
 
 ## Stop Vagrant Box
 
@@ -103,5 +113,4 @@ default machine:
 ```
 vagrant destroy default
 ```
-
 
