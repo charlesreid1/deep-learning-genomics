@@ -14,8 +14,8 @@ vagrant init ubuntu/xenial64
 
 Edit the Vagrantfile to pass port 8888 on the 
 vagrant (guest) machine (which is the Jupyter 
-notebook port) on to port 8889 on the host machine,
-and to create a shared folder:
+notebook port) on to port 8889 on the host machine ([link](https://www.vagrantup.com/docs/networking/forwarded_ports.html))
+and to create a shared folder ([link](https://www.vagrantup.com/docs/synced-folders/basic_usage.html)):
 
 ```
 Vagrant.configure("2") do |config|
