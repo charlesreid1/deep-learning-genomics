@@ -35,7 +35,10 @@ underpowered for machine learning tasks.
 
 ## Chapter 3: Machine Learning with DeepChem
 
-Chapter 3 Notes: [Chapter3.md](Chapter3.md)
+Detailed notes:
+
+* [MultiClassifier.md](MultiClassifier.md) - notes on the 
+  multiclassifier example covered in Chapter 3
 
 Outline of Chapter 3:
 
@@ -53,9 +56,15 @@ Outline of Chapter 3:
 
 ## Chapter 6: Deep Learning for Genomics
 
-Chapter 6 Notes: [Chapter6.md](Chapter6.md)
+Detailed notes:
 
-Chapter 6 outline:
+* [TranscriptionFactor.md](TranscriptionFactor.md) - use convolutional
+  neural networks to solve the transcription factor binding problem
+
+* [RNAInterference.md](RNAInterference.md) - use convolutional neural
+  networks to predict sequences of RNA short inhibitors
+
+Outline of Chapter 6:
 
 * Primer (ha ha) on DNA and RNA
 
