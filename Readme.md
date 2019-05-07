@@ -19,7 +19,7 @@ and coverage of relevant material.
 
 ## Installing
 
-Your options are:
+Your options are (listed in order from worst to best):
 
 * <s>Install using DeepChem website's instructions</s> (does not include all necessary conda channels)
 * <s>Install using instructions in Readme</s> (cose but no cigar, problems with python version)
@@ -27,11 +27,8 @@ Your options are:
 * <s>Use Docker</s> (only works if you have a CPU, not mentioned on DeepChem website)
 * [Use Binder](Binder.md) (caveat: don't lose your browser window, or all your hard work, or at the very least your nice Jupyter notebook, will disappear forever into the bindether.)
 * [Use Vagrant](Vagrant.md) (A DeepChem install option that actually works. Requires a fresh Ubuntu 16.04 image.)
-
-**Note:** You could also use a cloud compute node, 
-which you'll end up doing anyway, 
-since a virtual machine will be pathetically 
-underpowered for machine learning tasks.
+* [Use Google Colaboratory](Colaboratory.md) (Colaboratory is a cloud compute platform for running notebooks)
+* Ditch DeepChem and use [Keras](https://keras.io) instead
 
 ## Chapter 3: Machine Learning with DeepChem
 
@@ -39,6 +36,8 @@ Detailed notes:
 
 * [MultiClassifier.md](MultiClassifier.md) - notes on the 
   multiclassifier example covered in Chapter 3
+
+* [Metrics.md](Metrics.md) - metrics for assessing models
 
 Outline of Chapter 3:
 
@@ -61,8 +60,14 @@ Detailed notes:
 * [TranscriptionFactor.md](TranscriptionFactor.md) - use convolutional
   neural networks to solve the transcription factor binding problem
 
-* [RNAInterference.md](RNAInterference.md) - use convolutional neural
-  networks to predict sequences of RNA short inhibitors
+* [DeepChem to Keras](DeepChem2Keras.md) - notes on translating the
+  DeepChem example from Chapter 6 into Keras
+
+Jupyter Notebooks:
+
+* [Chapter 6 1D CNN example using DeepChem](ch6/deepchem-ch6.ipynb)
+
+* [Chapter 6 1D CNN example using Keras](ch6/keras-ch6.ipynb)
 
 Outline of Chapter 6:
 
@@ -72,14 +77,14 @@ Outline of Chapter 6:
     * Background on what we want to find, challenges, data
     * Use convolutional model to predict binding sites
 
-* Model Number One (convolutional network)
+* Example 1: 1D convolutional neural network with sequence data
     * Features, labels, weights
     * Network architecture (1D convolution layer, dropout, dense, sigmoid)
     * Dataset loading
     * Metrics (ROC vs epochs)
     * Improvement process - don't change architecture, add more data
 
-* Model Number Two (One Plus Plus)
+* Example 2: 1D convolutional neural network with sequence data and chromatin accessibility data
     * Chromatin accessibility data
     * Difficulty of having multiple features (and weights, and labels, etc.)
     * Resolved by using a generator that returns batches
@@ -90,7 +95,7 @@ Outline of Chapter 6:
     * siRNA - pieces of RNA that bind to mRNA to turn off expression of a gene
     * Challenge: prediction of siRNA sequences
 
-* Model Number Three (two-layer convolutional network)
+* Example 3: two-layer convolutional neural network
     * Data set - 2431 siRNA molecules, 21 bases each, labeled with 0 or 1
     * Network architecture (2x(convolution, dropout), dense)
     * No weights (each sample should contribute equally)
