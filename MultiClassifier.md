@@ -111,25 +111,6 @@ e.g., max or min.
 
 See [Metrics.md](Metrics.md) for more about specific metrics.
 
-## Class Hierarchy and UML Diagram
-
-![Class hierarchy and UML diagram for deepchem MultiTaskClassifier class](multitask_classifier.png)
-
-To create this diagram, start by going to the directory
-where you cloned deepchem:
-
-```
-cd ~/deepchem/
-```
-
-Install pylint, then call pyreverse:
-
-```
-pip install pylint
-cd deepchem/models
-pyreverse -o png -c tensorgraph.fcnet.MultitaskClassifier -k -s 0 -p DEEPCHEM .
-```
-
 ## MultiTask Classifier Links
 
 * Link to tag 2.1.0 of DeepChem on Github: <https://github.com/deepchem/deepchem/tree/2.1.0/deepchem/models>
