@@ -15,6 +15,6 @@ through the book's examples or using DeepChem.
 
 * 1D CNN for predicting DNA transcription binding sites:
     * [Jupyter notebook](keras_cnn1d_dna_transcription.ipynb)
-    * [Google CoLab notebook](https://colab.research.google.com/github/charlesreid1/dib-deep-chem/blob/master/ch6/keras_ch6_improved.ipynb)
+    * [Google CoLab notebook](https://colab.research.google.com/github/charlesreid1/deep-learning-genomics/blob/master/keras_cnn1d_dna_transcription.ipynb#)
 
 
