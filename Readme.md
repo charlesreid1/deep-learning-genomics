@@ -1,6 +1,17 @@
-# Deep Learning for the Life Sciences
+# Deep Learning for Genomics
 
 This repository contains Jupyter notebooks and notes for 
-["Deep Learning for the Life Sciences"](https://www.oreilly.com/library/view/deep-learning-for/9781492039822/)
-by Ramsundar et al (O'Reilly).
+deep learning for genomics.
+
+Originally this was going to be book notes for the
+O'Reilly book <u>Deep Learning for the Life Sciences</u>
+by Ramsundar et al (O'Reilly). However, the book was
+so terrible that we've abandoned any attempt at working
+through the book's examples or using DeepChem.
+
+# Notebooks and Topics
+
+## Convolutional Neural Nets
+
+* [1D CNN for predicting DNA transcription binding sites]()
 
