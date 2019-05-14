@@ -13,8 +13,10 @@ through the book's examples or using DeepChem.
 
 ## Convolutional Neural Nets
 
-* 1D CNN for predicting DNA transcription binding sites:
-    * [Jupyter notebook](keras_cnn1d_dna_transcription.ipynb)
-    * [Google CoLab notebook](https://colab.research.google.com/github/charlesreid1/deep-learning-genomics/blob/master/keras_cnn1d_dna_transcription.ipynb#)
+* Keras 1D CNN for predicting DNA transcription binding sites:
+    * [Jupyter notebook: keras_cnn1d_dna_transcription.ipynb](keras_cnn1d_dna_transcription.ipynb)
+    * [Google CoLab notebook: keras_cnn1d_dna_transcription.ipynb](https://colab.research.google.com/github/charlesreid1/deep-learning-genomics/blob/master/keras_cnn1d_dna_transcription.ipynb#)
 
-
+* Keras + Scikit-learn Cross-Validated 1D CNN (transcription factor bind site predictions):
+    * [Jupyter notebook: keras_sklearn_cnn1d_dna_transcription.ipynb](keras_sklearn_cnn1d_dna_transcription.ipynb)
+    * [Google CoLab notebook: keras_sklearn_cnn1d_dna_transcription.ipynb](https://colab.research.google.com/github/charlesreid1/deep-learning-genomics/blob/master/keras_sklearn_cnn1d_dna_transcription.ipynb#)
