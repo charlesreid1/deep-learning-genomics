@@ -11,6 +11,12 @@ through the book's examples or using DeepChem.
 
 # Notebooks and Topics
 
+## Data Sets
+
+* Data Exploration for DNA transcription binding site data set:
+    * [Jupyter notebook: data_exploration_dna_transcription.ipynb](data_exploration_dna_transcription.ipynb)
+    * [Google CoLab notebook: data_exploration_dna_transcription.ipynb](https://colab.research.google.com/github/charlesreid1/deep-learning-genomics/blob/master/data_exploration_dna_transcription.ipynb#)
+
 ## Convolutional Neural Nets
 
 * Keras 1D CNN for predicting DNA transcription binding sites:
@@ -20,3 +26,8 @@ through the book's examples or using DeepChem.
 * Keras + Scikit-learn Cross-Validated 1D CNN (transcription factor bind site predictions):
     * [Jupyter notebook: keras_sklearn_cnn1d_dna_transcription.ipynb](keras_sklearn_cnn1d_dna_transcription.ipynb)
     * [Google CoLab notebook: keras_sklearn_cnn1d_dna_transcription.ipynb](https://colab.research.google.com/github/charlesreid1/deep-learning-genomics/blob/master/keras_sklearn_cnn1d_dna_transcription.ipynb#)
+
+* Hyperparameter Optimization of Cross-Validated 1D CNN (transcription factor bind site predictions):
+    * [Jupyter notebook: hyperparameter_cnn1d_dna_transcription.ipynb](hyperparameter_cnn1d_dna_transcription.ipynb)
+    * [Google CoLab notebook: hyperparameter_cnn1d_dna_transcription.ipynb](https://colab.research.google.com/github/charlesreid1/deep-learning-genomics/blob/master/hyperparameter_cnn1d_dna_transcription.ipynb#)
+
