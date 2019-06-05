@@ -37,3 +37,6 @@ hyperas, and hyperopt) are used along the way as well.
     * [Jupyter notebook: hyperparameter_cnn1d_dna_transcription.ipynb](hyperparameter_cnn1d_dna_transcription.ipynb)
     * [Google CoLab notebook: hyperparameter_cnn1d_dna_transcription.ipynb](https://colab.research.google.com/github/charlesreid1/deep-learning-genomics/blob/master/hyperparameter_cnn1d_dna_transcription.ipynb#)
 
+* Ray/Tune for Hyperparameter Optimization of Cross-Validated 1D CNN (IN PROGRESS):
+    * [Jupyter notebook: ray_tune_cnn1d_dna_transcription.ipynb](ray_tune_cnn1d_dna_transcription.ipynb)
+    * [Google CoLab notebook: ray_tune_cnn1d_dna_transcription.ipynb](https://colab.research.google.com/github/charlesreid1/deep-learning-genomics/blob/master/ray_tune_cnn1d_dna_transcription.ipynb#)
