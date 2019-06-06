@@ -1,2 +1,8 @@
 deep-learning-life-sciences
+DeepLearningLifeSciences
 *.zip
+test_*
+train_*
+valid_*
+chromatin.txt
+.ipynb_checkpoints/
