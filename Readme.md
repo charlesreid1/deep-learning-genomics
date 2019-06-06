@@ -1,11 +1,9 @@
 # Deep Learning for Genomics
 
 This repository contains Jupyter notebooks and notes for 
-deep learning for genomics.
-
-This repository principally uses keras and scikit-learn
-for deep learning, but other libraries (such as ray, trace, 
-hyperas, and hyperopt) are used along the way as well.
+deep learning for genomics. We principally use keras and
+scikit-learn for deep learning, but other libraries (joblib,
+ray, trace, hyperas, hyperopt) are used along the way as well.
 
 # Notebooks and Topics
 
