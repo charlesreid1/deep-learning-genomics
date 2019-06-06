@@ -21,6 +21,14 @@ keras 1d cnn notebook:
 - [x] increase batch size
 
 
+keras sklearn 1d cnn notebook:
+
+- [x] improve explanation of what we're doing - three networks
+    - no chromatin
+    - chromatin with sample weights
+    - chromatin with class weights
+
+
 log transform notebook:
 
 - [ ] standardize and scale the log transform
