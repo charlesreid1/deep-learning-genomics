@@ -37,18 +37,18 @@ log transform notebook:
 
 power transform notebook:
 
-- [ ] we don't mention or show the power transform, or how the distribution of chromatin values is affected.
+- [x] we don't mention or show the power transform, or how the distribution of chromatin values is affected.
 - [ ] we also don't mention normalization or class weighting at a thousand-foot view level. 
-- [ ] need to update with an outline or summary.
-- [ ] explain stratified k-fold versus stratified shuffle.
-- [ ] delete the "class weights versus sample weights" section (they are the same)
+- [ ] add an outline or summary to the top
+- [ ] use class weights, not sample weights
+- [ ] if we are just making tiny modifications to a prior notebook, then say so explicitly at the top, and link to that notebook.
 
 
 quantile transform notebook:
 
 - [ ] we again don't mention or show the quantile transform, or how the distribution is changed.
 - [ ] this notebook mentions "variation 3" - but where are these "variations" listed? linked?
-- [ ] explain stratified k-fold versus stratified shuffle.
 - [ ] modify the paragraphs and sections to mention what is specific to the quantile transform.
 - [ ] if we are just making tiny modifications to a prior notebook, then say so explicitly at the top, and link to that notebook.
+- [ ] use class weights, not sample weights
 
