@@ -3,7 +3,7 @@
 This repository contains Jupyter notebooks and notes for 
 deep learning for genomics. We principally use keras and
 scikit-learn for deep learning, but other libraries (joblib,
-ray, trace, hyperas, hyperopt) are used along the way as well.
+ray, tune, hyperas, hyperopt) are used along the way as well.
 
 # Predicting DNA Transcription Factor Binding Sites
 
