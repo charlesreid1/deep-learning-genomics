@@ -27,6 +27,10 @@ ray, trace, hyperas, hyperopt) are used along the way as well.
 
 ### Data Transformations
 
+* Keras + Scikit-learn Cross-Validated 1D CNN, Applying Log Transform to Chromatin Data:
+    * [Jupyter notebook: keras_sklearn_cnn1d_dna_transcription_logx.ipynb](keras_sklearn_cnn1d_dna_transcription_logx.ipynb)
+    * [Google CoLab notebook: keras_sklearn_cnn1d_dna_transcription_logx.ipynb](https://colab.research.google.com/github/charlesreid1/deep-learning-genomics/blob/master/keras_sklearn_cnn1d_dna_transcription_logx.ipynb)
+
 * Keras + Scikit-learn Cross-Validated 1D CNN, Applying Power Transform to Chromatin Data:
     * [Jupyter notebook: keras_sklearn_cnn1d_dna_transcription_powerx.ipynb](keras_sklearn_cnn1d_dna_transcription_powerx.ipynb)
     * [Google CoLab notebook: keras_sklearn_cnn1d_dna_transcription_powerx.ipynb](https://colab.research.google.com/github/charlesreid1/deep-learning-genomics/blob/master/keras_sklearn_cnn1d_dna_transcription_powerx.ipynb)
