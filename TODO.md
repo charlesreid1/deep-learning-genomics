@@ -1,9 +1,31 @@
 # TODO
 
 
+big picture keras:
+
+- [ ] how to specify to use A SPECIFIC METRIC as the objective function?
+- [ ] how to record/report confusion matrix? roc curve? roc auc?
+    - how roc auc and accuracy and precision are related...
+    - cannot just look at one in isolation, need whole context
+
+
+ray tune notebook:
+
+- [ ] run on CoLab
+- [ ] figure out how we're going to plot and analyze results
+    - combine previously-written functions for plotting etc
+    - pass it data/information from the auto-loaded dataframe
+- [ ] save results to a directory and visualizing with tensorborad
+    - how to save files and transfer them OUT with the tools we have?
+    - using command line google drive access/api sign-in?
+    - CONNECT TO A LOCAL JUPYTER RUNTIME
+
+
+
 data exploration notebook:
 
-- [ ] where did all the transforms go?
+- [x] where did all the transforms go?
+    - moved to each individual transform's notebook
 
 
 keras 1d cnn notebook: 
@@ -31,8 +53,8 @@ keras sklearn 1d cnn notebook:
 
 log transform notebook:
 
-- [ ] standardize and scale the log transform
-- [ ] why did we try the power and quantile transforms in the first place?
+- [x] standardize and scale the log transform
+- [x] why did we try the power and quantile transforms in the first place?
 
 
 power transform notebook:
@@ -51,4 +73,10 @@ quantile transform notebook:
 - [ ] modify the paragraphs and sections to mention what is specific to the quantile transform.
 - [ ] if we are just making tiny modifications to a prior notebook, then say so explicitly at the top, and link to that notebook.
 - [ ] use class weights, not sample weights
+
+
+
+
+
+
 

@@ -1,6 +1,8 @@
 deep-learning-life-sciences
 DeepLearningLifeSciences
+tune_mnist_ray_hyperband.py
 *.zip
+*.h5
 test_*
 train_*
 valid_*
