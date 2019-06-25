@@ -8,3 +8,5 @@ train_*
 valid_*
 chromatin.txt
 .ipynb_checkpoints/
+crp.dat
+ecoli-k12.fna.gz
